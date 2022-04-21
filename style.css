@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Code+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(28, 111, 236);
+    
+}
+.mainBox{
+    background: #fff;
+    min-width: 650px;
+    min-height: 400px;
+    border-radius: 7px;
+    padding: 20px;
+   box-shadow: 5px black;
+}
+.header{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px 0px; 
+    background-color: rgb(223, 226, 228);
+    border-radius: 6px;
+}
+.header h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 39px;
+    letter-spacing: 3px;
+}
+.header span{
+    font-size: 14px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.Text{
+    border: 2px solid rgb(126, 126, 126);
+    border-bottom: none;
+    border-radius: 7px;
+    display: flex;
+}
+
+.Text textarea{
+    width: 100%;
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 400;
+    max-height: 200px;
+    /* border-radius: 5px; */
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(57, 56, 56);
+}
+::placeholder{
+    color: blue;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+#inputText{
+    border-right: 3px solid rgb(126, 126, 126);
+}
+#inputText:focus{
+    border: 2px solid rgb(9, 9, 255);
+    border-radius: 5px;
+}
+
+.icons{
+    display: flex;
+    border: 2px solid rgb(126, 126, 126);
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    height: 39px;
+    align-items: center;
+    border-radius: 0px 0px 15px 15px;
+}
+.icons i{
+    font-size: 17px;
+    color: rgb(99, 97, 97);
+    cursor: pointer;
+}
+.iconLeft{
+    /* border: 2px solid red; */
+    width: 75px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+    margin-left: 10px;
+}
+.iconRight{
+    /* border: 2px solid red; */
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+#inputLang{
+    width: 99px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+#outputLang{
+    width: 99px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.button{
+    margin-top: 12px;
+}
+.button button{
+    width: 100%;
+    height: 39px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    background-color: rgb(53, 134, 255);
+    color: white;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+/* button:hover{
+    background-color: rgb(233, 214, 241);  
+    color: rgb(49, 131, 255);
+} */
+
+.fas.fa-copy.copied{
+    color: rgb(116, 111, 255);
+}
+.fas.fa-exchange-alt.exchanged{
+    color: rgb(244, 63, 84);
+}
+.fa.fa-volume-up.soundUp{
+    color: rgb(116, 111, 255);
+}
+.fa.fa-microphone.micOn{
+    color: rgb(116, 111, 255);
+}

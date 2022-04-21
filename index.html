@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Language Translater ~ by Ankit Chitrakar</title>
+</head>
+<body>
+    <div class="mainBox">
+        <div class="header">
+            <h1>Lang2Lang Translator😍</h1>
+            <span>~Type a text and see the translation in various Languages...</span>
+        </div>
+        <div class="Text">
+            <textarea name="input" id="inputText" cols="30" rows="10"  placeholder="Enter your Text here...."></textarea>
+            <textarea name="output" id="outputText" cols="30" rows="10" placeholder="Translate" disabled></textarea>
+        </div>
+        <div class="icons">
+            <div class="iconLeft">
+                <i id="inputCopy" class="fas fa-copy"></i>
+                <i id="speakerInput" class="fa fa-volume-up"></i>
+                <i id="mic" class="fa fa-microphone" aria-hidden="true"></i>
+            </div>
+            <div class="languageSection">
+                <select class="form-select" id="inputLang">
+                  </select>
+            </div>
+            <div class="exchange">
+                <i class="fas fa-exchange-alt"></i>
+            </div>
+            <select class="form-select" id="outputLang">
+              </select>
+            <div class="iconRight">
+                <i id="speakerOutput" class="fa fa-volume-up"></i>
+                <i id="outputCopy" class="fas fa-copy"></i>
+            </div>
+        </div>
+        <div class="button">
+            <button>Translate Text</button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+<!-- <script src="language.js"></script> -->
+</html>
+
